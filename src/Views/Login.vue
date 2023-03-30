@@ -59,9 +59,9 @@ const handleSubmit = async () => {
                     <h1 class="text-title capitalize font-normal text-black text-center my-3">Sign up</h1>
 
                     <div class="mb-2">
-                        <TextField label="email" v-model="formData.email"/>
-                        <TextField label="Password" v-model="formData.password"/>
-            
+                        <TextField uniqueid="email" label="email" v-model="formData.email"/>
+                        <TextField uniqueid="password" label="Password" v-model="formData.password"/>
+                        
                         <button class="w-full capitalize bg-d-green text-light rounded-large h-[46px]">Submit</button>
                     </div>
                     <div class="flex justify-between">

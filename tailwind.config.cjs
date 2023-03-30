@@ -9,7 +9,9 @@ module.exports = {
         "d-green":"#4B664D",
         "dull-pink":"#BEAEA1",
         "peach":"#EADBAE",
-        "light":"#F5F5F5"
+        "light":"#F5F5F5",
+        "background-main": "rgba(219, 101, 38, 0.03)",
+        "grey":"#D9D9D9"
       },
     
         borderRadius: {
