@@ -1,9 +1,12 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+
+
 </script>
 
 <template>
- <router-view/>
+    <div class="flex">
+        <!-- <router-view class="view left-sidebar" name="sidebar"></router-view> -->
+        <router-view></router-view>
+        
+    </div>
 </template>
-
-
